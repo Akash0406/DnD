@@ -4,13 +4,14 @@ body {
     background: linear-gradient(to top left, #28b487, #7dd56f);
   }
   #flex{
+      border-radius: 10px;
       margin: 50px 10px 0 10px;
       padding-top: 20px;
       padding-bottom: 20px;
       border: 5px solid #FFFF00;
       display: flex;
       justify-content: center;
-      border-radius: 5px;
+    
   }
 
   .head1{
@@ -25,13 +26,14 @@ body {
   
   .container {
      width: 50%;
-    border-radius: 15px;
+    border-radius: 25px;
     background-color: #6ddccf3;
     padding: 1rem;
     margin-top: 1rem;
   }
   
   .draggable {
+    border-radius: 25px;
     padding: .7rem;
     background-color: white;
     border: .5px solid #1687a7;
