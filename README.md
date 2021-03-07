@@ -1,4 +1,4 @@
-# DnD
+# Drag & Drop
 
 https://starx0406.github.io/DnD/
 
