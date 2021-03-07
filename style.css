@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+   
+    background: linear-gradient(to top left, #28b487, #7dd56f);
+  }
+  #flex{
+      margin: 50px 10px 0 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border: 5px solid #FFFF00;
+      display: flex;
+      justify-content: center;
+      border-radius: 10px;
+
+  }
+
+  .head1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    color: #1687a7;
+    text-align: center;
+    margin-top: 25px;
+
+
+  }
+  
+  .container {
+     width: 50%;    
+    background-color: #6ddccf3;
+    padding: 1rem;
+    margin-top: 1rem;
+   
+  }
+  
+  .draggable {
+    padding: .7rem;
+    background-color: white;
+    border: .5px solid #1687a7;
+    cursor: move;   
+    border-radius: 25px;
+  }
+  
+  .draggable.dragging {
+    opacity: 0.1;
+    color: #FFFF00;
+    background-color: aqua;
+  }
+  
+  .h3{
+    font-size: 1rem;
+    color: #1687a7;
+    text-align: end;
+    margin-top: 25px;
+  }
+  
+  @import url('https://fonts.googleapis.com/css?family=Raleway');
+  
+  * {
+      font-family: Raleway;
+  }
+  
